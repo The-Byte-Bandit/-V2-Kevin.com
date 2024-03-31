@@ -1,0 +1,16 @@
+.Proj-img-div {
+    width: 50%;
+}
+
+.proj-img { 
+    max-width: 100%;
+}
+
+.proj-details{
+    /* max-width: ; */
+    padding-left: 47px;
+}
+.card{
+    max-width: 1095px;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+nav{
+    width: 100%; /* Equivalent to w-full */
+    padding-top: 1.5rem; /* Equivalent to py-6 */
+    justify-content: space-between; /* Equivalent to justify-between */
+
+}
+
+
+ul{
+    list-style: none;
+}
+.mr-10{
+    margin-right: 2.5rem;
+}

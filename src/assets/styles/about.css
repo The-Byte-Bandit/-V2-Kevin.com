@@ -1,0 +1,59 @@
+/* p{
+    color: green;
+} */
+
+/* .about-paragraph{
+    max-width: 550px;
+} */
+.ju-1{
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; 
+}
+.about{
+    /* max-width: 50%; */
+    min-height: 80vh;
+}
+
+
+.technologies{
+    /* max-width: 90%; */
+    align-content: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.stack{
+ gap: 1.6rem;
+}
+
+.stack h3{
+
+}
+
+.tech-list{
+    /* padding-left: 8.5rem;
+    padding-right: 8.5rem; */
+    /* justify-self: center;
+    max-width: 400px; */
+    /* max-width: 150px; */
+}
+
+.tech-list ul{
+    gap: 1rem;
+}
+
+/* .tech-list li{
+    font-size: 13px;
+    max-width: 8rem;
+    margin-left: 1px;
+} */
+@media screen and (min-width: 620px) {
+    /* CSS rules for screens with a maximum width of 620px or less */
+    /* Place your styles here */
+    .about-paragraph{
+    /* font-size: 13px;  */
+    width: 90%;
+    }
+  }
