@@ -1,4 +1,5 @@
-import React from 'react'
+
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/navbar'
 import Hero from './pages/hero'
 import  About from './pages/about'
@@ -8,6 +9,9 @@ import './App.css'
 import Contact from './pages/contact';
 
 function App() {
+    useEffect(() => {
+    window.location.href = "https://my-portfolio-v3-dusky.vercel.app/";
+  }, []);
   return (
     <div>
       <div className='paddingX marginY'>
